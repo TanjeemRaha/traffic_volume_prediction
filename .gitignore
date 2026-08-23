@@ -1,0 +1,31 @@
+# Python environments and temporary files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.matplotlib/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Description.txt
+.agents/
+.codex/
+
+# Downloaded or reproducible data (keep the explanatory README files)
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# Reproducible model artifacts and analysis results
+models/*.joblib
+outputs/figures/*.png
+outputs/metrics/*.csv
+outputs/predictions/*.csv
+outputs/reports/*.md
+outputs/reports/*.json
